@@ -1,0 +1,52 @@
+/* @theme my-theme */
+
+@import 'default';
+:root {
+    font-family: 'Noto Sans JP';
+    color: #10193a;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    color: #10193a;
+    font-size: 1.9em;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+p, ul, ol {
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+table, th, td {
+    font-size: 0.9em;
+}
+
+strong {
+    font-weight: bold;
+    color: #178cac;
+}
+
+header, footer {
+    font-size: 0.8em;
+    color: #10193a;
+}
+
+section.top {
+    background-color: #e3f2ff;
+}
